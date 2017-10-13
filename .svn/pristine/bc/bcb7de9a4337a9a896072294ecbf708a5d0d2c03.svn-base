@@ -1,0 +1,187 @@
+<div class="bg_screen"></div>
+<div class="dialogue_changeicn" id="dialogue_changeicn">
+    <div class="inner_dialogue">
+        <div class="svgContainer">
+            <%= icon_stamp%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_coupon%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_information%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_chirashi%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_shop%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_scratch%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_history%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_config%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_blog%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_booking%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_club%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_ec%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_facebook%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_faq%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_hotel%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_inquiry%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_members%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_menu%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_program%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_recruit%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_reservation%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_roomsearch%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_trainer%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_seasonable%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_home%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_twitter%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_line%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_user%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_mobile%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_dots%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_food%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_ticket%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_gift%>
+        </div>
+         <div class="svgContainer">
+            <%= icon_coupon2%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_calendar%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_mail%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_phone%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_stamp2%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_photo%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_inforcircle%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_inforcircle2%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_question%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_question2%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_speaker%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_tooltip%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_tooltip2%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_tooltip_ellipse%>
+        </div>
+            <div class="svgContainer">
+            <%= icon_cardid%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_yen%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_avt_user%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_avt_user2%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_ring%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_ring2%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_ring3%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_character%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_character2%>
+        </div>
+        <div class="svgContainer">
+            <%= icon_coins%>
+        </div>
+    </div>
+</div>
+    <div class="dialogue_confirm" id="dialogue_confirm">
+        <div class="inner_dialogue">
+            <p>svgではない為、アイコンカラー変える可能がありません</p>
+            <label><input type="checkbox" id="notshowdialogue" /><span></span>次回にダイアログを表示したくない場合は、チェックをつけてください</label>
+            <div class="actbtnconfirm">
+            <button class="agree">OK</button>
+            <button class="cancel">キャンセル</button>
+            </div>
+        </div>
+
+    </div>

@@ -1,0 +1,94 @@
+<div id="APP-TOP" class="BACKBONE-PAGE" style="margin-top: -44px;">
+<div class="cf">
+    <% if( AppConf.features.slideshow ){ %>
+      <div class="sliderImages">
+        <div class="slickSlider"></div>
+      </div>
+    <% }else{ %>
+      <div class="topBg">
+        <img src="<%= AppConf.slideshow.slideshowContentsList[0].imageUrl %>">
+      </div>
+    <!-- /.topBg -->
+    <% } %>
+<!-- <div style="margin-top: -80px;">
+
+<div class="titleContainer">
+  <h1><img src="./image/top/img_logo.png" height="56" width="199"></h1>
+</div>
+
+<div class="topBg">
+  <img src="./image/top/img_logo_bg.jpg">
+</div> -->
+
+  <div class="menuContainer">
+
+    <div class="menuBody bdRight">
+
+      <div class="menuColumn2 cf">
+        <a href="#coupon">
+          <div class="menuBlock bdRight">
+            <div class="svgContainer">
+              <img src="./image/top/icon_coupon.png" width="50px" height="50px" alt=""/>
+            </div>
+            <p class="btnM ftcolor1 bdcolor1">クーポン一覧</p>
+          </div>
+        </a>
+        <a href="#information">
+          <div class="menuBlock">
+            <div class="svgContainer">
+              <img src="./image/top/icon_information.png" width="50px" height="50px" alt=""/>
+            </div>
+            <p class="btnM ftcolor1 bdcolor1">お知らせ</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="menuColumn2 bdcolor1 cf">
+        <a href="#stamp">
+          <div class="menuBlock bdRight">
+            <div class="svgContainer">
+              <img src="./image/top/icon_stamp.png" width="50px" height="50px" alt=""/>
+            </div>
+            <p class="btnM ftcolor1 bdcolor1">来店スタンプ</p>
+          </div>
+        </a>
+        <a href="#shop">
+          <div class="menuBlock">
+            <div class="svgContainer">
+              <img src="./image/top/icon_shop.png" width="50px" height="50px" alt=""/>
+            </div>
+            <p class="btnM ftcolor1 bdcolor1">店舗検索</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="menuFooter bdRight">
+
+      <div class="menuColumn2 bdcolor1 cf">
+        <a href="#history">
+          <div class="menuBlock bdRight">
+            <div class="svgContainer">
+              <img src="./image/top/icon_history.png" width="50px" height="50px" alt=""/>
+            </div>
+            <p class="btnS ftcolor1 bdcolor1">利用履歴</p>
+          </div>
+        </a>
+        <a href="#config">
+          <div class="menuBlock">
+            <div class="svgContainer">
+              <img src="./image/top/icon_config.png" width="50px" height="50px" alt=""/>
+            </div>
+            <p class="btnS ftcolor1 bdcolor1">設定</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+</div>
+
+
+</div>
+</div>

@@ -1,0 +1,12 @@
+<div id="CONFIG-TOP" class="BACKBONE-PAGE">
+
+<div class="bgcolor3 ftcolor1">
+	<ul>
+		<li class="bdcolor1" id="regist-carduser-btn"><a >カードをお持ちの方はこちら</a></li>
+		<li class="bdcolor1" id="regist-user-btn"><a >モバイル会員証のみでご利用の方はこちら</a></li>
+	</ul>
+</div>
+
+
+</div>
+<%= App.util.injectProgressScreenDom()  %>

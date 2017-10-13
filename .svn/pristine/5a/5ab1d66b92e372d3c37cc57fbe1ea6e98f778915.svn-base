@@ -1,0 +1,6 @@
+<div id="LOGIN">
+	<label for="password">パスワード</label>
+	<input type="tel" name="password" id="password">
+	<button type="button" class="login-btn btbgcolor1 btftcolor1">次へ</button>
+</div>
+<%= App.util.injectProgressScreenDom()  %>

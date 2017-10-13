@@ -1,0 +1,27 @@
+/*
+ * Declare mixin applySize() for box images
+ * @include size($width, $height);
+ */
+
+@mixin applySize($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+/*
+ * Declare mixin middleImg() for images 
+ * @include middleImg();
+ */
+
+@mixin middleImg() {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

@@ -1,0 +1,11 @@
+<div class="app3col_select">      
+  <p class="changeicn"><input type="checkbox" id="select_row" class="select_1" /> <span class="title_row">来店スタンプ</span> <span class="inputtxt"><input type="text" class="title_value" id="title_1" value="来店スタンプ"/></span><a class="change_icon">アイコン選択</a></p>
+  <p class="changeicn"><input type="checkbox" id="select_row" class="select_2" /> <span class="title_row">クーポン</span> <span class="inputtxt"><input type="text" class="title_value" id="title_2" value="クーポン一覧"/></span><a class="change_icon">アイコン選択</a></p>
+  <p class="changeicn"><input type="checkbox" id="select_row" class="select_3" /> <span class="title_row">プッシュ通知</span> <span class="inputtxt"><input type="text" class="title_value" id="title_3" value="お知らせ"/></span><a class="change_icon">アイコン選択</a></p>
+  <p class="changeicn"><input type="checkbox" id="select_row" class="select_4" /> <span class="title_row">チラシ</span> <span class="inputtxt"><input type="text" class="title_value" id="title_4" value="チラシ"/></span><a class="change_icon">アイコン選択</a></p>
+  <p class="changeicn"><input type="checkbox" id="select_row" class="select_5" /> <span class="title_row">店舗検索</span> <span class="inputtxt"><input type="text" class="title_value" id="title_5" value="店舗検索"/></span><a class="change_icon">アイコン選択</a></p>
+  <p class="changeicn"><input type="checkbox" id="select_row" class="select_6" /> <span class="title_row">スクラッチ</span> <span class="inputtxt"><input type="text" class="title_value" id="title_6" value="スクラッチ"/></span><a class="change_icon">アイコン選択</a></p>
+  <p class="changeicn"><input type="checkbox" id="select_row" class="select_7" /> <span class="title_row">利用履歴</span> <span class="inputtxt"><input type="text" class="title_value" id="title_7" value="利用履歴"/></span><a class="change_icon">アイコン選択</a></p>
+  <p class="changeicn"><input type="checkbox" id="select_row" class="select_8" /> <span class="title_row">設定</span> <span class="inputtxt"><input type="text" class="title_value" id="title_8" value="設定"/></span><a class="change_icon">アイコン選択</a></p>
+  <p class="changeicn"><input type="checkbox" id="select_row" class="select-point" /> <span class="title_row">ポイント</span></p>
+</div>

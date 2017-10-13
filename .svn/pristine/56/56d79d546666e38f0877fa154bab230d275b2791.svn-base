@@ -1,0 +1,493 @@
+      <div class="menuContainer">
+        <div class="inner-menuContainer">
+          <!--Point-->
+          <div class="menuColumn1">
+            <!-- <a> -->
+              <div class="menuBlock">
+                <div class="block-point cf">
+                  <div class="pointInformation">
+                    <p id="headtxt">現在のポイント数</p>
+                    <p class="pointValue point-value">3,000</p>
+                  </div>
+                  <div class="pointUse"><p>ポイントを使う</p></div>
+                  <img id="cardType" src="./image/card.png">
+                </div>
+              </div>
+            <!-- </a> -->
+          </div>
+          <!--Barcode-->
+          <div id="barcodebox">
+            <img src="./image/img_barcode.gif" id="barcodeimg"/>
+            <p>192615985125698547</p>
+          </div>
+          
+          <div class="menuBody" id="l3col2">
+          
+          
+          
+          
+            <div class="menu_row_1 menuColumn3 cf" id="area-menu">
+            	<div id="row1_1">
+					<a id="svg1">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt36">
+					      <span><%= icon_stamp%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_36">来店スタンプ</p>
+					  </div>
+					</a>
+				</div>
+            
+				<div id="row1_2">
+					<a id="svg1">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt36">
+					      <span><%= icon_stamp%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_36">来店スタンプ</p>
+					  </div>
+					</a>
+					<a id="svg3">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt37">
+					      <span><%= icon_coupon%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_37">クーポン一覧</p>
+					  </div>
+					</a>
+				</div>
+              
+				<div id="row1_3">
+					<a id="svg1">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt36">
+					      <span><%= icon_stamp%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_36">来店スタンプ</p>
+					  </div>
+					</a>
+					<a id="svg3">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt37">
+					      <span><%= icon_coupon%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_37">クーポン一覧</p>
+					  </div>
+					</a>
+					<a id="svg5">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt38">
+					      <span><%= icon_information%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_38">お知らせ</p>
+					    
+					  </div>
+					</a>
+				</div>
+				
+				<div id="row1_4">
+					<a id="svg1">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt36">
+					      <span><%= icon_stamp%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_36">来店スタンプ</p>
+					  </div>
+					</a>
+					<a id="svg3">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt37">
+					      <span><%= icon_coupon%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_37">クーポン一覧</p>
+					  </div>
+					</a>
+					<a id="svg5">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt38">
+					      <span><%= icon_information%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_38">お知らせ</p>
+					    
+					  </div>
+					</a>
+		              <a id="svg6">
+		                <div class="menuBlock">
+		                  <div class="svgContainer" id="icon_lt6">
+		                    <span><%= icon_scratch%></span>
+		                    <img class="imageSVG"/>
+		                    <canvas id="canvas"></canvas>
+		                  </div>
+		                  <p class="btnM ftcolor1 title_6">スクラッチ</p>
+		                </div>
+		              </a>
+				</div>
+              
+            </div>
+
+            <div class="menu_row_2 menuColumn3 cf" id="area-menu">
+            
+            <div id="row2_1">
+					<a id="svg2">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt39">
+					      <span><%= icon_chirashi%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_39">チラシ一覧</p>
+					  </div>
+					</a>
+				</div>
+            	
+				<div id="row2_2">
+					<a id="svg2">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt39">
+					      <span><%= icon_chirashi%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_39">チラシ一覧</p>
+					  </div>
+					</a>
+					<a id="svg4">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt40">
+					      <span><%= icon_shop%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_40">店舗検索</p>
+					  </div>
+					</a>
+				</div>
+				
+				<div id="row2_3">
+					<a id="svg2">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt39">
+					      <span><%= icon_chirashi%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_39">チラシ一覧</p>
+					  </div>
+					</a>
+					<a id="svg4">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt40">
+					      <span><%= icon_shop%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_40">店舗検索</p>
+					  </div>
+					</a>
+	              <a id="svg7">
+	                <div class="menuBlock">
+	                  <div class="svgContainer" id="icon_lt21">
+	                    <span><%= icon_booking%></span>
+	                    <img class="imageSVG"/>
+	                    <canvas id="canvas"></canvas>
+	                  </div>
+	                  <p class="btnM ftcolor1 title_21">来店予約</p>
+	                </div>
+	              </a>
+				</div>
+				
+				<div id="row2_4">
+					<a id="svg2">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt39">
+					      <span><%= icon_chirashi%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_39">チラシ一覧</p>
+					  </div>
+					</a>
+					<a id="svg4">
+					  <div class="menuBlock">
+					    <div class="svgContainer" id="icon_lt40">
+					      <span><%= icon_shop%></span>
+					      <img class="imageSVG"/>
+					      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_40">店舗検索</p>
+					  </div>
+					</a>
+	              <a id="svg7">
+	                <div class="menuBlock">
+	                  <div class="svgContainer" id="icon_lt21">
+	                    <span><%= icon_booking%></span>
+	                    <img class="imageSVG"/>
+	                    <canvas id="canvas"></canvas>
+	                  </div>
+	                  <p class="btnM ftcolor1 title_21">来店予約</p>
+	                </div>
+	              </a>
+	              <a id="svg8">
+	                <div class="menuBlock">
+	                  <div class="svgContainer" id="icon_lt22">
+	                    <span><%= icon_program%></span>
+	                    <img class="imageSVG"/>
+	                    <canvas id="canvas"></canvas>
+	                  </div>
+	                  <p class="btnM ftcolor1 title_22">プログラム</p>
+	                </div>
+	              </a>
+				</div>
+
+            </div>
+
+          </div>
+          
+          
+          
+          <div class="menuFooter">
+	          <div id="area-menu">
+	          <!-- FOOTER1 START -->
+	          <div class="footer_menu_content hidden_class menuColumn1_footer" id="footer1">
+	              <a id="svg11">
+	                <div class="menuBlock">
+	                  <div class="svgContainer" id="icon_lt8">
+	                    <span><%= icon_config%></span>
+	                    <img class="imageSVG"/>
+	                    <canvas id="canvas"></canvas>
+	                  </div>
+	                  <p class="btnS ftcolor1 title_8">設定</p>
+	                </div>
+	              </a>
+				</div>
+	          <!-- FOOTER1 END -->
+				
+	          <!-- FOOTER2 START -->
+				<div class="footer_menu_content menuColumn2" id="footer2">
+	              <a id="svg10">
+	                <div class="menuBlock">
+	                  <div class="svgContainer" id="icon_lt7">
+	                    <span><%= icon_history%></span>
+	                    <img class="imageSVG"/>
+	                    <canvas id="canvas"></canvas>
+	                  </div>
+	                  <p class="btnS ftcolor1 title_7">利用履歴</p>
+	                </div>
+	              </a>
+	              <a id="svg11">
+	                <div class="menuBlock">
+	                  <div class="svgContainer" id="icon_lt8">
+	                    <span><%= icon_config%></span>
+	                    <img class="imageSVG"/>
+	                    <canvas id="canvas"></canvas>
+	                  </div>
+	                  <p class="btnS ftcolor1 title_8">設定</p>
+	                </div>
+	              </a>
+				</div>
+	          <!-- FOOTER2 END -->
+				
+	          <!-- FOOTER3 START -->
+				<div class="footer_menu_content hidden_class menuColumn3_footer" id="footer3">
+				
+					<a id="svg12">
+			          <div class="menuBlock">
+			            <div class="svgContainer" id="icon_lt42">
+			              <span><%= icon_line%></span>
+			              <img class="imageSVG"/>
+			                <canvas id="canvas"></canvas>
+			            </div>
+	                 		<p class="btnS ftcolor1 title_42">LINE</p>
+			          </div>
+			        </a>
+			        
+			        
+	              <a id="svg10">
+	                <div class="menuBlock">
+	                  <div class="svgContainer" id="icon_lt7">
+	                    <span><%= icon_history%></span>
+	                    <img class="imageSVG"/>
+	                    <canvas id="canvas"></canvas>
+	                  </div>
+	                  <p class="btnS ftcolor1 title_7">利用履歴</p>
+	                </div>
+	              </a>
+	              
+	              <a id="svg11">
+	                <div class="menuBlock">
+	                  <div class="svgContainer" id="icon_lt8">
+	                    <span><%= icon_config%></span>
+	                    <img class="imageSVG"/>
+	                    <canvas id="canvas"></canvas>
+	                  </div>
+	                  <p class="btnS ftcolor1 title_8">設定</p>
+	                </div>
+	              </a>
+				
+				</div>
+	          <!-- FOOTER3 END -->
+				
+	          <!-- FOOTER4 START -->
+		          <div class="footer_menu_content hidden_class menuColumn4_footer cf" id="footer4">
+				        <a id="svg12">
+				          <div class="menuBlock">
+				            <div class="svgContainer" id="icon_lt42">
+				              <span><%= icon_line%></span>
+				              <img class="imageSVG"/>
+				                <canvas id="canvas"></canvas>
+				            </div>
+	                  		<p class="btnS ftcolor1 title_42">LINE</p>
+				          </div>
+				        </a>
+				        <a id="svg13">
+				          <div class="menuBlock">
+				            <div class="svgContainer" id="icon_lt43">
+				              <span><%= icon_twitter%></span>
+				              <img class="imageSVG"/>
+				              <canvas id="canvas"></canvas>
+				            </div>
+	                  		<p class="btnS ftcolor1 title_43">Twitter</p>
+				          </div>
+				        </a>
+				        <a id="svg14">
+				          <div class="menuBlock">
+				            <div class="svgContainer" id="icon_lt44">
+				              <span><%= icon_home_small%></span>
+				              <img class="imageSVG"/>
+				              <canvas id="canvas"></canvas>
+				            </div>
+	                  		<p class="btnS ftcolor1 title_44">ホーム</p>
+				          </div>
+				        </a>
+				        <a id="svg15">
+				          <div class="menuBlock">
+				            <div class="svgContainer" id="icon_lt45">
+				              <span><%= icon_config%></span>
+				              <img class="imageSVG"/>
+				              <canvas id="canvas"></canvas>
+				            </div>
+	                  		<p class="btnS ftcolor1 title_45">設定</p>
+				          </div>
+				        </a>
+				  	</div>
+	          <!-- FOOTER4 END -->
+				  	
+	          <!-- FOOTER5 START -->
+				  	<div class="footer_menu_content menuColumn5_footer hidden_class cf" id="footer5">
+				        <a id="svg12">
+				          <div class="menuBlock">
+				            <div class="svgContainer" id="icon_lt42">
+				              <span><%= icon_line%></span>
+				              <img class="imageSVG"/>
+				                <canvas id="canvas"></canvas>
+				            </div>
+	                  		<p class="btnS ftcolor1 title_42">LINE</p>
+				          </div>
+				        </a>
+				        <a id="svg13">
+				          <div class="menuBlock">
+				            <div class="svgContainer" id="icon_lt43">
+				              <span><%= icon_twitter%></span>
+				              <img class="imageSVG"/>
+				              <canvas id="canvas"></canvas>
+				            </div>
+	                  		<p class="btnS ftcolor1 title_43">Twitter</p>
+				          </div>
+				        </a>
+				        <a id="svg14">
+				          <div class="menuBlock">
+				            <div class="svgContainer" id="icon_lt44">
+				              <span><%= icon_home_small%></span>
+				              <img class="imageSVG"/>
+				              <canvas id="canvas"></canvas>
+				            </div>
+	                  		<p class="btnS ftcolor1 title_44">ホーム</p>
+				          </div>
+				        </a>
+				        <a id="svg10">
+			                <div class="menuBlock">
+			                  <div class="svgContainer" id="icon_lt13">
+			                    <span><%= icon_history%></span>
+			                    <img class="imageSVG"/>
+			                    <canvas id="canvas"></canvas>
+			                  </div>
+			                  <p class="btnS ftcolor1 title_13">利用履歴</p>
+			                </div>
+			              </a>
+				        <a id="svg15">
+				          <div class="menuBlock">
+				            <div class="svgContainer" id="icon_lt45">
+				              <span><%= icon_config%></span>
+				              <img class="imageSVG"/>
+				              <canvas id="canvas"></canvas>
+				            </div>
+	                  		<p class="btnS ftcolor1 title_45">設定</p>
+				          </div>
+				        </a>
+				  	</div>
+	          <!-- FOOTER5 END -->
+	          </div>
+          </div>
+
+<!--           <div class="menuFooter" id="f3col2"> -->
+<!--           <div class="menuColumn4 cf" id="area-menu"> -->
+<!--             <a id="svg12"> -->
+<!--               <div class="menuBlock"> -->
+<!--                 <div class="svgContainer" id="icon_lt42"> -->
+<!--                   <span><%= icon_line%></span> -->
+<!--                   <img class="imageSVG"/> -->
+<!--                     <canvas id="canvas"></canvas> -->
+<!--                 </div> -->
+<!--               </div> -->
+<!--             </a> -->
+<!--             <a id="svg13"> -->
+<!--               <div class="menuBlock"> -->
+<!--                 <div class="svgContainer" id="icon_lt43"> -->
+<!--                   <span><%= icon_twitter%></span> -->
+<!--                   <img class="imageSVG"/> -->
+<!--                   <canvas id="canvas"></canvas> -->
+<!--                 </div> -->
+<!--               </div> -->
+<!--             </a> -->
+<!--             <a id="svg14"> -->
+<!--               <div class="menuBlock"> -->
+<!--                 <div class="svgContainer" id="icon_lt44"> -->
+<!--                   <span><%= icon_home_small%></span> -->
+<!--                   <img class="imageSVG"/> -->
+<!--                   <canvas id="canvas"></canvas> -->
+<!--                 </div> -->
+<!--               </div> -->
+<!--             </a> -->
+<!--             <a id="svg15"> -->
+<!--               <div class="menuBlock"> -->
+<!--                 <div class="svgContainer" id="icon_lt45"> -->
+<!--                   <span><%= icon_config%></span> -->
+<!--                   <img class="imageSVG"/> -->
+<!--                   <canvas id="canvas"></canvas> -->
+<!--                 </div> -->
+<!--               </div> -->
+<!--             </a> -->
+<!--           </div> -->
+<!--           /.menuColumn4 -->
+<!--         </div> -->
+        <!-- /.menuFooter -->
+        </div>
+      </div>  <!-- menuContainer  -->

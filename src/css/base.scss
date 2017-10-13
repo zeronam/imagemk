@@ -1,0 +1,31 @@
+ol,ul,body{
+	margin: 0;
+	padding: 0;
+}
+
+a, a:link, a:visited{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+.hide{
+	display: none !important;
+}
+
+.disabledButton{
+	opacity: 0.3;
+}
+
+.RELATIVE-WRAPPER{
+	position: relative;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
+

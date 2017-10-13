@@ -1,0 +1,131 @@
+      <div class="menuContainer" >
+        <div class="inner-menuContainer" >
+          <!--Point-->
+          <div class="menuColumn1">
+            <!-- <a> -->
+              <div class="menuBlock">
+                <div class="block-point cf">
+                  <div class="pointInformation">
+                    <p id="headtxt">現在のポイント数</p>
+                    <p class="pointValue point-value">3,000</p>
+                  </div>
+                  <div class="pointUse"><p>ポイントを使う</p></div>
+                  <img id="cardType" src="./image/card.png">
+                </div>
+              </div>
+            <!-- </a> -->
+          </div>
+          <!--Barcode-->
+          <div id="barcodebox">
+            <img src="./image/img_barcode.gif" id="barcodeimg"/>
+            <p>192615985125698547</p>
+          </div>
+          <div class="menuBody twocol" id="l2col">
+            <div class="menuColumn2 cf" id="area-menu">
+              <a class="selected" id="svg1">
+                <div class="menuBlock">
+                  <div class="svgContainer" id="icon_lt9">
+                    <span><%= icon_coupon%></span>
+                    <img class="imageSVG"/>
+                    <canvas id="canvas"></canvas>
+                  </div>
+                  <p class="btnM ftcolor1 title_9">クーポン一覧</p>
+                </div>
+              </a>
+              <a id="svg3">
+                <div class="menuBlock">
+                  <div class="svgContainer" id="icon_lt10">
+                    <span><%= icon_information%></span>
+                    <img class="imageSVG"/>
+                    <canvas id="canvas"></canvas>
+                  </div>
+                  <p class="btnM ftcolor1 title_10">お知らせ</p>
+                <!--   <span class="badge-number"></span> -->
+                </div>
+              </a>
+            </div>
+
+            <div class="menuColumn2 cf" id="area-menu">
+              <a id="svg2">
+                <div class="menuBlock">
+                  <div class="svgContainer" id="icon_lt11">
+                    <span><%= icon_stamp%></span>
+                    <img class="imageSVG"/>
+                    <canvas id="canvas"></canvas>
+                  </div>
+                  <p class="btnM ftcolor1 title_11">来店スタンプ</p>
+                </div>
+              </a>
+              <a id="svg4">
+                <div class="menuBlock">
+                  <div class="svgContainer" id="icon_lt12">
+                    <span><%= icon_shop%></span>
+                    <img class="imageSVG"/>
+                    <canvas id="canvas"></canvas>
+                  </div>
+                  <p class="btnM ftcolor1 title_12">店舗検索</p>
+                </div>
+              </a>
+            </div>
+            
+            
+            <div class="menuColumn2 cf" id="area-menu">
+              
+              <a id="svg5">
+                <div class="menuBlock">
+                  <div class="svgContainer" id="icon_lt17">
+                    <span><%= icon_information%></span>
+                    <img class="imageSVG"/>
+                    <canvas id="canvas"></canvas>
+                  </div>
+                  <p class="btnM ftcolor1 title_17">お知らせ</p>
+                  <!-- <span class="badge-number"></span> -->
+                </div>
+              </a>
+              
+              <a id="svg7">
+                <div class="menuBlock">
+                  <div class="svgContainer" id="icon_lt21">
+                    <span><%= icon_booking%></span>
+                    <img class="imageSVG"/>
+                    <canvas id="canvas"></canvas>
+                  </div>
+                  <p class="btnM ftcolor1 title_21">来店予約</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          
+          </div>
+          
+          <div class="menuFooter">
+          	<div id="area-menu"></div>
+          </div>
+          
+
+<!--           <div class="menuFooter" id="f2col"> -->
+<!--             <div class="menuColumn2" id="area-menu"> -->
+<!--               <a id="svg10"> -->
+<!--                 <div class="menuBlock"> -->
+<!--                   <div class="svgContainer" id="icon_lt13"> -->
+<!--                     <span><%= icon_history%></span> -->
+<!--                     <img class="imageSVG"/> -->
+<!--                     <canvas id="canvas"></canvas> -->
+<!--                   </div> -->
+<!--                   <p class="btnS ftcolor1 title_13">利用履歴</p> -->
+<!--                 </div> -->
+<!--               </a> -->
+<!--               <a id="svg11"> -->
+<!--                 <div class="menuBlock"> -->
+<!--                   <div class="svgContainer" id="icon_lt14"> -->
+<!--                     <span><%= icon_config%></span> -->
+<!--                     <img class="imageSVG"/> -->
+<!--                     <canvas id="canvas"></canvas> -->
+<!--                   </div> -->
+<!--                   <p class="btnS ftcolor1 title_14">設定</p> -->
+<!--                 </div> -->
+<!--               </a> -->
+<!--             </div> -->
+<!--           </div> -->
+        </div>
+      </div> <!-- /.menuContainer -->

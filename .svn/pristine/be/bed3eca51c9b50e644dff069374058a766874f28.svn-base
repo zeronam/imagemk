@@ -1,0 +1,293 @@
+$baseColor: #F0F1F5;
+$mainColor: #582426;
+$overLayZIndex: 9999;
+$bronzeColor: #815A2B;
+
+.page{
+	height: 100%;
+}
+
+#HINAGATA{
+	.APP-HEADER{
+		display: fixed;
+		text-align: center;
+		border: solid 0px $mainColor;
+		border-bottom-width: 2px;
+		z-index: 1100;
+
+		.HEADER-INNER-WRAPPER{
+			width: 100%;
+			height: 100%;
+			background-color: $baseColor;
+			.TITLE{
+				color: $mainColor;
+				font-size: 18px;
+				font-weight: bold;
+			}
+
+			.HEADER-LEFT{
+				position: absolute;
+				left: 0px;
+				z-index: 1;
+			}
+			.HEADER-RIGHT{
+				position: absolute;
+				right: 0px;
+				z-index: 1;
+			}
+			.BACK-BUTTON-WRAPPER{
+				display: inline-block;
+				height: 40px;
+				.BACK-BUTTON{
+					//background: $mainColor;
+					background-image: url('../image/common/btn_back.svg');
+					background-repeat: no-repeat;
+					background-position: left center;
+					color: white;
+					padding: 5px 10px;
+					margin-left: 10px;
+					border-radius: 5px;
+					font-size: 12px;
+					border: none;
+				}
+
+			}
+
+		}
+
+	}
+
+
+}
+
+body{
+	background-size: 100%;
+}
+
+.cf:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.cf { display: inline-block; }
+/* start commented backslash hack \*/
+* html .cf { height: 1%; }
+.cf { display: block; }
+/* close commented backslash hack */
+
+#master-container{
+	background: none;
+}
+
+.A-NAVS{
+	font-size: 18px;
+
+	li{
+		height: 65px;
+		line-height: 65px;
+		box-sizing: border-box;
+		padding: 0px 20px;
+		color: white;
+
+		&:nth-child(3n+1){ background-color: rgba( 0, 0, 0,0.3);} 
+		&:nth-child(3n+2){ background-color: rgba(20,20,20,0.3);} 
+		&:nth-child(3n+0){ background-color: rgba(40,40,40,0.3);} 
+
+	}
+
+};
+
+.VERTICAL-NAV{
+	box-sizing: border-box;
+}
+
+.emptyView{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.readMoreButton{
+	width: 100%;
+	height: 50px;
+	border: none;
+	color: black;
+	background-color: lightgrey;
+}
+.APP-FOOTER {
+    background: #fff;
+    box-sizing: border-box;
+    /*position:absolute;*/
+    bottom:0;
+    left:0;
+    z-index:50;
+}
+.android .bottom_menu {
+	width:255px;
+	height:54px;
+	li {
+		height: 53px;
+	}
+}
+.android .app-footer {
+	bottom:-2px;
+}
+.bottom_menu {
+    font-size: 10px;
+    border: 1px solid #fff;
+    border-width:1px 0;
+    display:block;
+    height:54px;
+    width:255px;
+    box-sizing: border-box;
+	li {
+		width: 51px;
+	    display: block;
+	    float: left;
+	    box-sizing: border-box;
+	    text-align: center;
+	    position: relative;
+		border-right: 1px solid #fff;
+		height: 52px;
+		opacity: 1;
+		&.active {
+			opacity: 1;
+			a {
+				// opacity: 1;
+				/*border-right: 1px solid rgba(149,33,35,1);*/
+				svg {
+					fill: #d05670;
+				}
+				.textinf {
+					color: #d05670;
+					/*font-weight: bold;*/
+				}
+			}
+		}
+		&.private {
+			/*padding-top:0;*/
+			margin:-10px 0;
+			background: #6a393c;
+			border-radius: 5px 5px 0 0;
+			a {
+				svg {
+					fill: #ffffff !important;
+					width: 45px;
+					height: 45px;
+				}
+				.textinf {
+					color: #ffffff !important;
+					font-weight: bold;
+				}
+			}
+		}
+		a {
+			display: block;
+			/*padding: 6px 0;*/
+			/*height: 62px;*/
+			height:43px;
+    		/*border-right: 1px solid rgba(149,33,35,1);*/
+			svg {
+				fill: #b4b2b4;
+			}
+			.textinf {
+				color: #673a3a;
+				margin: 0 0 0 10%;
+				display: block;
+				width: 80%;
+				overflow: hidden;
+				white-space:nowrap;
+			}
+		}
+ 	}
+ 	li:first-child {
+ 		border-left: 1px solid #fff;
+ 		padding-right:0;
+ 		// width:47px;
+ 	}
+ 	li:last-child {
+ 		// border-right: 0;
+ 		padding-right:0;
+ 		// width:47px;
+ 	}
+}
+.APP-FOOTER .bottom_menu svg.icon{
+	width: 40px;
+	height: 40px;
+	display: block;
+	margin:0 auto;
+	fill: #673a3a;
+}
+.APP-FOOTER .badge-number {
+	background: #ff0000;
+    color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    left: 29px;
+    top: 3px;
+    font-size: 10px;
+    display: block;
+    z-index:80;
+    font-style:normal;
+}
+#appdesign-onerow-region #APP-TOP .menuContainer{
+	position: absolute;
+	left: 0;
+	bottom: 74px;
+	/*z-index: 1000;*/
+	width: 100%;
+	background: #fff;
+}
+#footer_1icon li {
+		width: 255px;
+		.badge-number{
+			top: 5px;
+			left: 54px;
+		}
+}
+#footer_2icon li {
+		width: 127px;
+		.badge-number{
+			top: 5px;
+			left: 54px;
+		}
+		&:last-child {
+			width:128px;
+		}
+}
+#footer_3icon li {
+		width: 85px;
+		.badge-number{
+			top: 5px;
+			left: 54px;
+		}
+}
+#footer_4icon li {
+		width: 64px;
+		&:last-child {
+			width:63px;
+		}
+		.badge-number{
+			top: 3px;
+			left: 39px;
+		}
+}
+#app3col2 {
+	#APP-TOP .menuContainer .menuColumn3 a {
+		padding: 5px 0;
+	}
+}
+
+@import "./login.scss";
+@import "./top_2col.scss";
+@import "./spectrum.scss";
+@import "./jquery-ui.scss";
+@import "./appdesign.scss";
+/*@import "./svg.scss";*/
+

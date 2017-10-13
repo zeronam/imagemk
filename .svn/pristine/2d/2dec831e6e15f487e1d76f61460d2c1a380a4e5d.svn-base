@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="author" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="format-detection" content="telephone=no" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript" charset="utf-8" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/underscore-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/applican-1.5.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.transit.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+
+<style>
+body{
+	overflow: hidden;
+}
+#content{
+	width: 100%;
+	background: url(images/bg.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+#btnContainer{
+	display: none;
+	position: absolute;
+	left: 40px;
+	top: 500px;
+	z-index:10;
+}
+.scratchpad{
+	position: absolute;
+	left: 40px;
+	top: 140px;
+	width: 240px;
+	height: 240px;
+	z-index:9;
+}
+#resMsg{
+    color: #f00;
+    display: inline-block;
+    font-size: 70px;
+    font-weight: bold;
+    //transform: rotate(-10deg);
+}
+.resMsg_wrap{
+	text-align:center;line-height:250px;
+}
+
+</style>
+
+</head>
+
+<body>
+<div id="content">
+	<div class="content-box">
+		<div id="demo2" class="scratchpad"></div>
+		<div id="btnContainer">
+			<input type="button" value="Reset" onclick="$('#demo2').wScratchPad('reset');"/>
+			<input type="button" value="Clear" onclick="$('#demo2').wScratchPad('clear');"/>
+			<input type="button" value="Enable" onclick="$('#demo2').wScratchPad('enable', true);"/>
+			<input type="button" value="Disable" onclick="$('#demo2').wScratchPad('enable', false);"/>
+		</div>
+	</div>
+
+	<div id="btnMainWrpper">
+		<p id="win-msg" style="display:none;">クーポン一覧に引換えクーポンを入れさせていただきました。店頭でお引換ください。</p>
+		<button id="btnRetry" class="btnMain" style="display:none;">もう一度チャレンジ！</button>
+		<button id="btnReturn" class="btnMain">トップに戻る</button>
+		<br><a id="alt-link" href="#" onclick="$('#demo2').wScratchPad('getResult', true);$(this).hide();">スクラッチが削れない方はこちら</a>
+	</div>
+	
+</div>
+
+
+
+<script type="text/javascript" src="./js/scratch_config.js"></script>
+<script type="text/javascript" src="./js/wScratchPad.js"></script>
+<script type="text/javascript">
+var animeFlag = false;
+document.addEventListener("deviceready", function(){
+	$('#demo2').wScratchPad({
+		size : 20,
+		scratchMove : function (e, percent) {
+			if (percent > 60 && !animeFlag ) {
+				animeFlag = true;
+				this.setResult();
+			}
+		}
+	});
+	$("#alt-link").show();
+}, false);
+$('#btnReturn').on('click',function(){
+	location.href="../index.html";
+});
+$('#btnRetry').on('click',function(){
+	location.reload();
+});
+
+</script>
+
+</body>
+</html>

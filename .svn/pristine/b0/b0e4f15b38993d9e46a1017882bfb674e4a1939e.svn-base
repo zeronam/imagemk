@@ -1,0 +1,2 @@
+// application
+require('./hinagata/main');

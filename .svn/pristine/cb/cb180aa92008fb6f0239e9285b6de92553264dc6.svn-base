@@ -1,0 +1,66 @@
+<div class="value_board" style="display:none;background: #fff;position:fixed;top:0;left:0;width:100px;overflow:hidden;height:500px;overflow-y:auto;">
+    <p class="notify_position_3row">svg3</p>
+    <p class="notify_position_1row">svg3</p>
+    <p class="checkbarcode">uncheck</p>
+    <p class="checkcard">uncheck</p>
+    <p class="logouploadtxt"></p>
+	<p class="change_head_txt_point">現在のポイント数</p>
+    <p class="change_title_txt_point">ポイントを使う</p>
+    <p class="icon_color">#673a3a</p>
+    <p class="border_color">#673a3a</p>
+    <p class="title_color_col">#673a3a</p>
+    <p class="background_color">#ffffff</p>
+    <p class="escape_color">#ffffff</p>
+    <p class="active_color_icon">#d05670</p>
+    <p class="inavtive_color_icon">#b4b2b4</p>
+    <p class="badge_color">#ff0000</p>
+    <p class="background_point">#f7cbd3</p>
+    <p class="color_point">#673a3a</p>
+    <p class="check_box_escape">uncheck</p>
+    <p class="check_box_barcode">uncheck</p>
+    <p class="check_box_card">uncheck</p>
+    <p class="titlesvg1">来店スタンプ</p>
+    <p class="titlesvg2">クーポン一覧</p>
+    <p class="titlesvg3">お知らせ</p>
+    <p class="titlesvg4">ポイント</p>
+    <p class="titlesvg5">店舗検索</p>
+    <p class="titlesvg6">スクラッチ</p>
+    <p class="titlesvg7">来店予約</p>
+    <p class="titlesvg8">プログラム</p>
+    <p class="titlesvg9">ブログ</p>
+    <p class="titlesvg10">利用履歴</p>
+    <p class="titlesvg11">設定</p>
+    <p class="titlesvg12">LINE</p>
+    <p class="titlesvg13">Twitter</p>
+<!--     <p class="titlesvg14">ホーム</p>
+    <p class="rowtitlesvg1">ホーム</p> -->
+    <p class="rowtitlesvg2">店舗</p>
+    <p class="rowtitlesvg3">お知らせ</p>
+    <p class="rowtitlesvg4">クーポン</p>
+    <p class="rowtitlesvg5">設定</p>
+    <p class="onerow5footer">1</p>
+    <p class="onerow4footer">1</p>
+    <p class="onerow3footer">1</p>
+    <p class="rowicon1"><%= icon_home%></p>
+    <p class="rowicon2"><%= icon_shop%></p>
+    <p class="rowicon3"><%= icon_information%></p>
+    <p class="rowicon4"><%= icon_coupon%></p>
+    <p class="rowicon5"><%= icon_config_new%></p>
+    <p class="iconpng"></p>
+    <p class="icon1"><%= icon_stamp%></p>
+    <p class="icon2"><%= icon_coupon%></p>
+    <p class="icon3"><%= icon_information%></p>
+    <p class="icon4"><%= icon_character2%></p>
+    <p class="icon5"><%= icon_shop%></p>
+    <p class="icon6"><%= icon_scratch%></p>
+    <p class="icon7"><%= icon_booking%></p>
+    <p class="icon8"><%= icon_program%></p>
+    <p class="icon9"><%= icon_blog%></p>
+    <p class="icon10"><%= icon_history%></p>
+    <p class="icon11"><%= icon_config%></p>
+    <p class="icon12"><%= icon_line%></p>
+    <p class="icon13"><%= icon_twitter%></p>
+    <p class="icon14"><%= icon_home_small%></p>
+    <p class="icon15"><%= icon_config%></p>
+    <p class="number_footer">2</p>
+</div>

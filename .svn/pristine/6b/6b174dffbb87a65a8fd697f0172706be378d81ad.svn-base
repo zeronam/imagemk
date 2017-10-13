@@ -1,0 +1,352 @@
+<div id="app_design" class="cf">
+  <div id="dialogue-region"></div>
+  <div class="mobile_wrap">
+  	<div class="top_menu">
+  		<div class="top_menu_wrapper">
+  			<div class="top_menu_logo"></div>
+  			<div class="top_menu_login" id="txtLogin">
+  				ログイン
+  			</div>
+  			
+  			<div class="top_menu_right">
+  				<input type="button" class="btn_blue btn_download" id="btnDownload" value="画像をダウンロード" />
+  			</div>
+  		</div>
+  	</div>
+  	
+  	
+ 	<div class="tab_menu">
+   			<div id="menuTab1">メニュー構成を決める</div>
+    		<div id="menuTab2">スタイル＆配色を決める</div>
+    		<br>
+    		<div id="menuTabSlider"><div id="sliderImage"></div></div>
+   	</div>
+  	
+    <div class="page_wrapper">
+      <div class="inner-page">
+        <div class="leftside">
+        
+        <div id="data-save-region"></div>
+          <div id="box-title-region">
+          
+          <div id="divTabContent">
+          
+          	<div id="tabMenuSetting">
+		          <div class="navigation_menu">
+		            <p class="box-title"><span class="titletxt">ナビゲーションメニュー</span></p>
+		            <div class="box-content">
+		              <ul class="layout_select_type">
+		                <li class="layout_3row select">タイル <img src="./image/mobile_332.png" /></li>
+		                <li class="layout_1row">下部固定 <img src="./image/mobile_5icn.png" /></li>
+		              </ul>
+		              
+		            <div id="divSlideMenu">
+		            	<label><input type="checkbox" id="showSlideMenu" name="showSlideMenu" /><span></span> スライドメニュー</label>
+		            </div>
+		            </div>
+		          </div>
+		                   
+		          
+		          <div class="number_menu">
+		            <p class="box-title"><span class="titletxt">メニュー数</span></p>
+		            <div class="box-content">
+		            
+			            <div id="divTileMenu">
+			            
+			           <div class="div_menu_row">
+			           	1段 &nbsp;
+			           	<select id="row1Menu">
+			           		<option value="0">なし</option>
+			           		<option value="1">1つ</option>
+			           		<option value="2">2つ</option>
+			           		<option value="3" selected>3つ</option>
+			           		<option value="4">4つ</option>
+			           	</select>
+			           </div>
+			           <div class="div_menu_row">
+			           	2段 &nbsp;
+			           	<select id="row2Menu">
+			           		<option value="0">なし</option>
+			           		<option value="1">1つ</option>
+			           		<option value="2">2つ</option>
+			           		<option value="3" selected>3つ</option>
+			           		<option value="4">4つ</option>
+			           	</select>
+			           </div>
+			           <div class="div_menu_row">
+			           	3段 &nbsp;
+			           	<select id="row3Menu">
+			           		<option value="0">なし</option>
+			           		<option value="1">1つ</option>
+			           		<option value="2" selected>2つ</option>
+			           		<option value="3">3つ</option>
+			           		<option value="4">4つ</option>
+			           		<option value="5">5つ</option>
+			           	</select>
+			           </div>
+			           <div class="div_menu_row footer_height">
+		            	<label><input type="checkbox" id="footerHeight" /><span></span> 1段、2段と同じ高さに変更</label>
+			           </div>
+			            
+<!-- 			            	<select id="rowMenuTile" name="rowMenuTile"> -->
+<!-- 			           			<option value="2" selected>2段</option> -->
+<!-- 			           			<option value="3">3段</option> -->
+<!-- 			           		</select> -->
+			           		
+<!-- 			            	<select id="colMenuTile" name="colMenuTile"> -->
+<!-- 			           			<option value="2">2カラム</option> -->
+<!-- 			           			<option value="3" selected>3カラム</option> -->
+<!-- 			           		</select> -->
+			           		
+			           		<br />
+			           		
+			           		
+				            <div id="divFooterMenu">       
+				            	<div id="divNumberFooterMenu">
+<!-- 					            	<select id="numberFooterMenu" name="numberFooterMenu"> -->
+<!-- 					           			<option value="2" selected>2つ</option> -->
+<!-- 					           			<option value="3">3つ</option> -->
+<!-- 					           			<option value="4">4つ</option> -->
+<!-- 					           			<option value="5">5つ</option> -->
+<!-- 					           		</select> -->
+				           		</div>
+				            </div>
+			            
+			            </div>
+			            
+			           	<div id="divFixedMenu">
+				            <div class="div_menu_row">
+				           	1段 &nbsp;
+				           	<select id="row1MenuSub">
+				           		<option value="0">なし</option>
+				           		<option value="1">1つ</option>
+				           		<option value="2">2つ</option>
+				           		<option value="3" selected>3つ</option>
+				           		<option value="4">4つ</option>
+				           	</select>
+				           </div>
+				           <div class="div_menu_row">
+				           	2段 &nbsp;
+				           	<select id="row2MenuSub">
+				           		<option value="0">なし</option>
+				           		<option value="1">1つ</option>
+				           		<option value="2">2つ</option>
+				           		<option value="3" selected>3つ</option>
+				           		<option value="4">4つ</option>
+				           	</select>
+				           </div>
+				           <div class="div_menu_row">
+				           	3段 &nbsp;
+				            	<select id="numberMenuFixed" name="numberMenuFixed">
+				           			<option value="1">1つ</option>
+				           			<option value="2">2つ</option>
+				           			<option value="3">3つ</option>
+				           			<option value="4">4つ</option>
+				           			<option value="5" selected>5つ</option>
+				           		</select>
+				           </div>
+			            
+			           	</div>
+		            </div>
+		            
+		          </div>
+		          
+		          <div class="point_setting">
+		            <p class="box-title"><span class="titletxt">ポイント</span></p>
+		            <div class="box-content">
+		              <label id="change_content"><input type="checkbox" id="show_point_box" checked="checked"><span></span> ポイントあり</label>
+		              
+		              <div id="pointSettingContent">
+		              
+			              <div class="point_row">
+			              
+			               <label> <span class="txt">背景</span>
+			                  <div id="wColorPicker6">
+			                  <input type="text" name="togglePaletteOnly" id="togglePaletteOnly6">
+			                  </div>
+			                </label>
+			                <label> <span class="txt">文字</span>
+			                  <div id="wColorPicker7">
+			                  <input type="text" name="togglePaletteOnly" id="togglePaletteOnly7">
+			                  </div>
+			                </label>
+			              
+			              </div>
+			             
+			              <div class="point_row">
+			                  <div class="changetitlebox">
+			                    <p>テキスト1 &nbsp;<input type="text" class="change_head_txt" /></p>
+			                    <p>テキスト2 &nbsp;<input type="text" class="change_title_txt"  /></p>
+			                  </div>
+			              </div>
+			                  <label class="select_option_feature"><input type="checkbox" id="barcode_display"/><span></span>バーコード表示</label>
+			                  &nbsp;&nbsp;
+			                  <label class="select_option_feature"><input type="checkbox" id="card_display" /><span></span>カード表示
+			                      <!-- <span class="change_icon_act card">画像をアップロード</span>
+			                      <input type="file" id="upload_card" accept="image/*"> -->
+			                  </label> 
+			                  <button class="resetbtn" id="reset_point"><img src="./image/reset.png"> デフォルトに戻す</button>
+		                </div>
+		            </div>
+		          </div>
+          
+          	</div>
+          	<div id="tabMenuStyle">
+          	
+          		<div id="change-layout-region"></div>
+          		
+          	</div>
+          
+          </div>
+          
+
+          </div>
+
+          <div class="box_component">
+            <p class="box-title"><span class="titletxt">コンテンツ</span></p>
+            <div class="box-content">
+            	<button class="leftarr slidebtn"><i class="fa fa-caret-left" aria-hidden="true"></i></button>
+            	<button class="rightarr slidebtn"><i class="fa fa-caret-right" aria-hidden="true"></i></button>
+            	<div class="div_menu_setting">            		
+            		<div class="divinner">
+            			<div id="menu1"></div>
+            			<div id="menu2"></div>
+            			<div id="menu3"></div>
+            		</div>            		
+            	</div>
+            
+            
+            </div>
+          </div>
+            <div class="box_change_title">
+            	<ul>
+            		<li>
+            			<div class="preview_icon_select">
+            				<div class="menuBlock">
+					    	<div class="svgContainer" id="icon_lt36">
+						      <span></span>
+						      <img class="imageSVG">
+						      <canvas id="canvas"></canvas>
+					    </div>
+					    <p class="btnM ftcolor1 title_36"></p>
+					  </div>
+            			</div>
+            		</li>
+            		<li>
+              			<p><input type="text" id="input_new_title"/> </p>
+              			<button class="change_icon">アイコンを選択する</button>
+            		</li>
+            		<li>
+            			<label><input type="checkbox" id="get_notify"><span></span>バッジ表示</label>
+            			<label><input type="checkbox" id="senario"/><span></span>オリジナルの画像</label>
+            			<p>※推奨 100px × 100px 背景透明 png 形式</p>
+            			<p>※png 画像の場合は色の変更はできません</p>
+            		</li>
+            		<li>
+            			<span class="change_icon_act">画像をアップロード</span>
+                		<input type="file" id="upload_svg" accept="image/*"/> 
+            		</li>
+            	</ul>	
+              <!-- <p class="notice">※1行におさまるようにご注意ください</p> -->
+             
+
+            </div>
+          <div class="box_component modify_component">
+            <!-- <p class="box-title"><span class="titletxt">トップ画像</span></p> -->
+            <div class="box-content">
+              <span class="content changebgbox">画像をアップロード</span>
+              <input type="file" id="uploadbg" accept="image/*">
+              <div class="infoicn">
+                <p>ロゴを背景の上に載せる場合</p>
+                <p>※100px × 100px  背景透明png形式</p>
+              </div> 
+              <span class="content changebgbox">画像をアップロード</span> 
+              <input type="file" id="uploadlogo" accept="image/*">
+              <button class="resetbtn" id="reset_image"><img src="./image/reset.png"> デフォルトに戻す</button>
+            </div>
+          </div>
+          <div id="app-desgin-select-region"></div>
+          <div id="app-select-icon" style="display:none"></div>
+          
+          
+          
+          
+          
+        </div>
+        
+        
+        <div class="rightside">
+        
+        <div class="mobile_frame" id="mobile_wrap">
+            <ul class="mobile_type_select">
+              <li class="select">iPhone</li>
+              <li>Android</li>
+            </ul>
+<!--             <div class="tutorial_tips"> -->
+<!--               <div class="inner"> -->
+<!--                 <span id="triangle-up"></span> -->
+<!--                 編集したいメニューをクリックすると -->
+<!--                 変更ができます。 -->
+<!--               </div> -->
+<!--             </div>  -->
+            <div class="inner_frame">
+              <!-- <img class="imageSvgConvert" width="40" height="40"> -->
+              <!-- <canvas id="canvasSVGConvert"></canvas> -->
+                <div id="APP-TOP">
+                  <div class="cf">
+                    <div class="topBg layout3col" id="preview1">
+                    <div class="logo_space">
+                    <div class="spaceinner">
+                      <span id="preview2"><span class="resizeable"><img src="" class="logoupload"></span></span>
+                  </div>
+                </div>
+              <div class="bgcontainer">
+                <img src="./image/top_image_long.jpg" class="bgupload">
+                </div>
+              </div>
+              <div id="appdesign-threerow-region">
+              </div>
+              <div id="appdesign-onerow-region">
+              </div>
+            </div>
+          </div>
+            </div>  
+          </div>
+        
+        
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="divMask">
+	<div id="divLogin">
+		<div id="divLoginHeader">ログイン
+		
+		<div id="loginClose"><a href="#" onclick="$(&quot;#divMask&quot;).fadeOut('fast');return false;">X</a></div>
+		
+		</div>
+		<hr class="hr_view_topic">
+		<div id="divLoginContent">
+			<div class="div_login_line">
+				<div id="loginMsg"></div>
+			</div>
+			<div class="div_login_line">
+				<div class="div_login_left">ログインID：</div>
+				<div class="div_login_right"><input name="loginID" id="loginID" /></div>
+			</div>
+			<div class="div_login_line">
+				<div class="div_login_left">パスワード：</div>
+				<div class="div_login_right"><input type="password" name="password" id="password" /></div>
+			</div>
+			<div class="div_login_line">
+  				<input type="button" class="btn_blue" id="btnLogin" value="ログイン" />
+			</div>
+		</div>
+	</div>
+  </div>
+  
+  <!-- <div id="showimage"></div> -->
+</div>
+<%= App.util.injectProgressScreenDom()  %>

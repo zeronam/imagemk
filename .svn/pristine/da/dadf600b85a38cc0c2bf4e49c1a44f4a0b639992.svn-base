@@ -1,0 +1,89 @@
+<div class="select_one">
+  <div class="icon_info">
+    <div class="icon_select">
+      <span class="titletxt">アイコン</span>
+      <div class="svg_group" id="list-icon">
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_stamp%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_coupon%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_information%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_chirashi%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_shop%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_scratch%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_history%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_config%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_blog%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_booking%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_club%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_ec%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_facebook%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_faq%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_hotel%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_inquiry%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_members%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_menu%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_program%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_recruit%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_reservation%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_roomsearch%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_trainer%></span>
+        </div>
+        <div class="svgContainer">
+          <span class="draggable"><%= icon_seasonable%></span>
+        </div>
+      </div>
+    </div>
+    <div class="color_select">
+      <div class="example-container full-spectrum" id="palettes">
+        <span class="titletxt">カラ</span> <input type="text" name="togglePaletteOnly2" id="togglePaletteOnly2">
+      </div>        
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <label>メニュー名 <span class="inputtxt"><input type="text" class="title_icon_set"></span></label>
+  <button class="backbtn"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> 戻る</button>
+</div>

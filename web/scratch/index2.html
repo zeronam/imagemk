@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="author" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="format-detection" content="telephone=no" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="Stylesheet" type="text/css" href="./demo/demo.css" />
+
+<script type="text/javascript" charset="utf-8" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/underscore-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/applican-1.5.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.transit.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/wScratchPad.js"></script>
+
+</head>
+
+<body>
+
+<div id="wScratchPad" style="display:inline-block; position:relative; border:solid black 1px;"></div>
+
+
+<a id="reset" href="javascript:reset();">リセット</a>
+<a href="javascript:clear();">クリア</a>
+
+<script type="text/javascript">
+var lists=[
+  'images/winner.png',
+  'images/winner.png',
+  'images/winner.png',
+  'images/winner.png',
+  'images/winner.png'
+];
+var rNo = Math.floor(Math.random() * lists.length);
+
+$("#wScratchPad").wScratchPad({
+  width: 350,
+  height: 200,
+  image: 'images/winner.png',
+  color: '#000',
+  size: 10
+});
+function reset() {
+  rNo = Math.floor(Math.random() * lists.length);
+  $("#wScratchPad").wScratchPad('image',lists[rNo]);
+  $("#wScratchPad").wScratchPad('reset');
+}
+function clear() {
+  $("#wScratchPad").wScratchPad('clear');
+}
+</script>
+
+</body>
+</html>

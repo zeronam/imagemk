@@ -1,0 +1,851 @@
+/* top  */
+@mixin box-sizing($box-model) {
+    -webkit-box-sizing: $box-model;
+    -moz-box-sizing: $box-model;
+    box-sizing: $box-model;
+}
+.bdRight {
+  border-right: 1px solid #673a3a;
+}
+.bdWhite {
+  border-color: #fff;
+}
+
+/* top title */
+#APP-TOP .titleContainer{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 30;
+	width: 100%;
+}
+	#APP-TOP .titleContainer h1{
+		padding: 0;
+		margin: 50px 0 0;
+		text-align: center;
+	}
+
+/* top bg */
+#APP-TOP .topBg{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	width: 255px;
+	/*overflow:hidden;*/
+}
+	#APP-TOP .topBg .bgupload{
+		width: 100%;
+	}
+
+/* top menuContainer */
+#APP-TOP .menuContainer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 20;
+	width: 255px;
+	background: #fff;
+	@include box-sizing(border-box);
+	* {
+		@include box-sizing(border-box);
+	}
+}
+
+/*#APP-TOP .inner-menuContainer {*/
+#APP-TOP .menuContainer {
+	/*background-color: #fff;*/
+	.menuColumn4 {
+		display: block;
+		width: 253px;
+		clear:both;
+		border-top: 1px solid #673a3a;
+		a {
+			float: left;
+			background-color: #fff;
+			box-sizing: border-box;
+			display: table-cell;
+			width: 25%;
+			text-align: center;
+			border-right: 1px solid #673a3a;
+			&:last-child {
+				border-right: 0;
+			}
+			.menuBlock {
+				position: relative;
+				padding: 0;
+				.svgContainer {
+					display: block;
+					margin: 0 auto 10px;
+					img {
+						vertical-align: middle;
+					}
+				}
+				.label-menu {
+					color: #673a3a;
+					display: inline;
+					width: 100%;
+				}
+				.badge-number{
+					position: absolute;
+				    top: -7px;
+				    left: 65%;
+				    font-size: 10px;
+				    background: #ff0000;
+				    color: #fff;
+				    border-radius: 50% 50%;
+				    width: 18px;
+				    height: 18px;
+				    line-height: 18px;
+				    display: block;
+				    z-index:20;
+				    font-style: normal;
+				}
+				svg.icon {
+					width: 45px;
+					height: 45px;
+				}
+
+			}
+			/*p {
+				display:none;
+			}*/
+		}
+	}
+	/*padding: 1px;*/
+	
+	
+	.menuColumn4_footer {
+		display: block;
+		width: 253px;
+		clear:both;
+		/*border-top: 1px solid #673a3a;*/
+		a {
+			float: left;
+			background-color: #fff;
+			box-sizing: border-box;
+			display: table-cell;
+			width: 25%;
+			text-align: center;
+			border-right: 1px solid #673a3a;
+			&:last-child {
+				border-right: 0;
+			}
+			.menuBlock {
+				position: relative;
+				padding: 0;
+				.svgContainer {
+					display: block;
+					margin: 0 auto 15px;
+					img {
+						vertical-align: middle;
+					}
+				}
+				.label-menu {
+					color: #673a3a;
+					display: inline;
+					width: 100%;
+				}
+				.badge-number{
+					position: absolute;
+				    top: -7px;
+				    left: 65%;
+				    font-size: 10px;
+				    background: #ff0000;
+				    color: #fff;
+				    border-radius: 50% 50%;
+				    width: 18px;
+				    height: 18px;
+				    line-height: 18px;
+				    display: block;
+				    z-index:20;
+				    font-style: normal;
+				}
+				svg.icon {
+					width: 45px;
+					height: 45px;
+				}
+
+			}
+			p {
+				display:none;
+			}
+		}
+	}
+	
+	.menuColumn5_footer {
+		display: block;
+		width: 253px;
+		clear:both;
+		/*border-top: 1px solid #673a3a;*/
+		a {
+			float: left;
+			background-color: #fff;
+			box-sizing: border-box;
+			display: table-cell;
+			width: 20%;
+			text-align: center;
+			border-right: 1px solid #673a3a;
+			&:last-child {
+				border-right: 0;
+			}
+			.menuBlock {
+				position: relative;
+				padding: 0;
+				.svgContainer {
+					display: block;
+					margin: 0 auto 15px;
+					img {
+						vertical-align: middle;
+					}
+				}
+				.label-menu {
+					color: #673a3a;
+					display: inline;
+					width: 100%;
+				}
+				.badge-number{
+					position: absolute;
+				    top: -7px;
+				    left: 65%;
+				    font-size: 10px;
+				    background: #ff0000;
+				    color: #fff;
+				    border-radius: 50% 50%;
+				    width: 18px;
+				    height: 18px;
+				    line-height: 18px;
+				    display: block;
+				    z-index:20;
+				    font-style: normal;
+				}
+				svg.icon {
+					width: 45px;
+					height: 45px;
+				}
+
+			}
+			p {
+				display:none;
+			}
+		}
+	}
+}
+
+#APP-TOP .inner-menuContainer {
+	/*background-color: #fff;*/
+	.menuColumn4Row1 {
+		display: block;
+		width: 253px;
+		clear:both;
+		/*border-top: 1px solid #673a3a;*/
+		a {
+			float: left;
+			background-color: #fff;
+			box-sizing: border-box;
+			display: table-cell;
+			width: 25%;
+			text-align: center;
+			border-right: 1px solid #673a3a;
+			border-top: 1px solid #673a3a;
+			height:63px;
+			padding-top:5px;
+			&:last-child {
+				border-right: 0;
+			}
+			.menuBlock {
+				position: relative;
+				padding: 0;
+				.svgContainer {
+					display: block;
+					margin: 0 auto 10px;
+					height:30px;
+					img {
+						vertical-align: middle;
+					}
+				}
+				.label-menu {
+					color: #673a3a;
+					display: inline;
+					width: 100%;
+				}
+				.badge-number{
+					position: absolute;
+				    top: -2px;
+				    left: 65%;
+				    font-size: 10px;
+				    background: #ff0000;
+				    color: #fff;
+				    border-radius: 50% 50%;
+				    width: 18px;
+				    height: 18px;
+				    line-height: 18px;
+				    display: block;
+				    z-index:20;
+				    font-style: normal;
+				}
+				svg.icon {
+					width: 45px;
+					height: 45px;
+				}
+
+			}
+		}
+	}
+	
+	.menuColumn5Row1 {
+		display: block;
+		width: 253px;
+		clear:both;
+		/*border-top: 1px solid #673a3a;*/
+		a {
+			float: left;
+			background-color: #fff;
+			box-sizing: border-box;
+			display: table-cell;
+			width: 20%;
+			text-align: center;
+			border-right: 1px solid #673a3a;
+			border-top: 1px solid #673a3a;
+			height:63px;
+			padding-top:5px;
+			&:last-child {
+				border-right: 0;
+			}
+			.menuBlock {
+				position: relative;
+				padding: 0;
+				.svgContainer {
+					display: block;
+					margin: 0 auto 10px;
+					height:30px;
+					img {
+						vertical-align: middle;
+					}
+				}
+				.label-menu {
+					color: #673a3a;
+					display: inline;
+					width: 100%;
+				}
+				.badge-number{
+					position: absolute;
+				    top: -2px;
+				    left: 28px;
+				    font-size: 10px;
+				    background: #ff0000;
+				    color: #fff;
+				    border-radius: 50% 50%;
+				    width: 18px;
+				    height: 18px;
+				    line-height: 18px;
+				    display: block;
+				    z-index:20;
+				    font-style: normal;
+				}
+				svg.icon {
+					width: 45px;
+					height: 45px;
+				}
+
+			}
+		}
+	}
+	/*padding: 1px;*/
+}
+.letter-spacing {
+	letter-spacing: -1.5px;
+}
+
+#APP-TOP .inner-menuContainer .menuBody {
+	border-left: 1px solid #673a3a;
+	border-right: 1px solid #673a3a;
+}
+#appdesign-onerow-region .menuContainer .menuBody {
+	border-left: 1px solid #673a3a;
+	border-right: 1px solid #673a3a;
+}
+
+	/* common */
+	#APP-TOP .menuContainer .btnM{
+		font-size: 10px;
+	}
+	#APP-TOP .menuContainer .btnS{
+		font-size: 10px;
+	}
+
+
+	/* column1 point */
+	#APP-TOP .menuContainer .menuColumn1{
+		width: 100%;
+		/*border-top: 1px solid;*/
+	}
+		#APP-TOP .menuContainer .menuColumn1 a{}
+			#APP-TOP .menuContainer .menuColumn1 a .menuBlock{}
+				.block-point{
+					background-color: #f7cbd3;
+					padding: 5px 0;
+					position:relative;
+					// min-height:61px;
+				}
+				.block-point .pointInformation{
+					float: left;
+					width: 60%;
+					text-align: center;
+				}
+					.block-point .pointInformation p{
+						margin: 0px;
+						font-size: 9px;
+					}
+					.block-point .pointInformation p.pointValue{
+						font-size: 30px;
+					    color: #673a3a;
+					    // position: absolute;
+					    // top: 50%;
+					    // margin-top: -17px;
+					    // left: 40px;
+					}
+				.block-point div.pointUse{
+					float: left;
+					width: 28%;
+					font-size: 10px;
+					text-align: left;
+					color: #673a3a;
+				}
+				.block-point div.pointUse p {
+					margin: 0;
+				    max-width: 67px;
+				    white-space: nowrap;
+				    overflow: hidden;
+				    display: block;
+				    position: absolute;
+				    top: 50%;
+				    margin-top: -7px;
+				    right: 25px;
+				}
+				
+	#APP-TOP .menuContainer .menuBody .menuColumn1{
+		display: block;
+		width: 253px;
+		border-top: 1px solid;
+		border-color: #673a3a;
+		/*width: 288px;*/
+	}
+		#APP-TOP .menuContainer .menuBody .menuColumn1 a{
+			box-sizing: border-box;
+			display: block;
+			width: 254px;
+			text-align: center;
+			border-right: 1px solid #673a3a;
+			float:left;
+			padding: 0 5px;
+		}
+			#APP-TOP .menuContainer .menuBody .menuColumn1 a .menuBlock{
+				padding: 5px 0;
+			}
+			#APP-TOP .menuContainer .menuColumn1 a:last-child .menuBlock{
+				
+				position: relative;
+			}
+				#APP-TOP .menuContainer .menuBody .menuColumn1 a .menuBlock .svgContainer{
+					display: block;
+					position:relative;
+				}
+				#APP-TOP .menuContainer .menuBody .menuColumn1 a .menuBlock p{
+					// display: inline-block;
+					width: 100%;
+					white-space: nowrap;
+					overflow: hidden;
+					// text-overflow: ellipsis;
+					margin:0;
+					padding: 0 5px;
+				}
+				#APP-TOP .menuContainer .menuBody .menuColumn1 a .menuBlock .badge-number{
+					    position: absolute;
+				        top: -2px;
+				        left: 59%;
+				        font-size: 10px;
+				        background: red;
+				        color: #fff;
+				        border-radius: 50% 50%;
+				        width: 18px;
+				        height: 18px;
+				        line-height: 18px;
+				        display: block;
+				        font-style: normal;
+				        z-index: 20;
+				}
+				#APP-TOP .menuContainer.escape .menuBody .menuColumn1 a .menuBlock .badge-number {
+						top:4px;
+				}
+				
+				
+				
+				
+				
+
+	/* column2 */
+	#APP-TOP .menuContainer .menuColumn2{
+		display: block;
+		width: 253px;
+		border-top: 1px solid;
+		border-color: #673a3a;
+		/*width: 288px;*/
+	}
+		#APP-TOP .menuContainer .menuColumn2 a{
+			box-sizing: border-box;
+			display: block;
+			width: 126px;
+			text-align: center;
+			border-right: 1px solid #673a3a;
+			float:left;
+			padding: 0 5px;			
+			&:last-child {
+				border-right: 0px solid;
+				width: 127px;
+			}
+		}
+			#APP-TOP .menuContainer .menuColumn2 a .menuBlock{
+				padding: 5px 0;
+			}
+			#APP-TOP .menuContainer .menuColumn2 a:last-child .menuBlock{
+				
+				position: relative;
+			}
+				#APP-TOP .menuContainer .menuColumn2 a .menuBlock .svgContainer{
+					display: block;
+					position:relative;
+				}
+				#APP-TOP .menuContainer .menuColumn2 a .menuBlock p{
+					// display: inline-block;
+					width: 100%;
+					white-space: nowrap;
+					overflow: hidden;
+					// text-overflow: ellipsis;
+					margin:0;
+					padding: 0 5px;
+				}
+				#APP-TOP .menuContainer .menuColumn2 a .menuBlock .badge-number{
+					    position: absolute;
+				        top: -2px;
+				        left: 59%;
+				        font-size: 10px;
+				        background: red;
+				        color: #fff;
+				        border-radius: 50% 50%;
+				        width: 18px;
+				        height: 18px;
+				        line-height: 18px;
+				        display: block;
+				        font-style: normal;
+				        z-index: 20;
+				}
+				#APP-TOP .menuContainer.escape .menuColumn2 a .menuBlock .badge-number {
+						top:4px;
+				}
+
+
+	/* column3 */
+	#APP-TOP .menuContainer .menuColumn3{
+		clear: both;
+		width: 253px;
+		border-top: 1px solid #673A3A;
+	}
+	#APP-TOP .menuContainer .menuColumn3.last {
+		border-bottom: 1px solid #673A3A;
+	}
+		#APP-TOP .menuContainer .menuColumn3 a{
+			display: block;
+			float: left;
+			padding: 5px;
+			width: 84px;
+			border-right: 1px solid #673A3A;
+			text-align: center;
+			height:62px;
+		}
+		#APP-TOP .menuContainer .menuColumn3 a:last-child{
+			border-right: 0 none;
+			position: relative;
+		}
+		#APP-TOP .menuContainer .menuColumn3 a:nth-child(2){
+			width:85px;
+		}
+			#APP-TOP .menuContainer .menuColumn3 a .svgContainer{
+				display: block;
+				margin: 15px auto;
+				height: 30px;
+			}
+			#APP-TOP .menuContainer .menuColumn3 a p{
+				// display: inline-block;
+				width: 100%;
+				white-space: nowrap;
+				overflow: hidden;
+				// text-overflow: ellipsis;
+				padding:0;
+				margin:0;
+				// line-height:18px;
+			}
+			#APP-TOP .menuContainer .menuColumn3 a .menuBlock{
+			    position: relative;
+			}
+			#APP-TOP .menuContainer .menuColumn3 a .menuBlock .badge-number{
+				position: absolute;
+		       top: -2px;
+		       left: 69%;
+		       font-size: 10px;
+		       background: red;
+		       color: #fff;
+		       border-radius: 50% 50%;
+		       width: 18px;
+		       height: 18px;
+		       line-height: 18px;
+		       text-align: center;
+		       display: block;
+		       font-style: normal;
+		       z-index: 20;
+			}
+			
+		#APP-TOP .menuContainer .menuColumn4 a{
+			display: block;
+			float: left;
+			padding: 5px;
+			width: 25%;
+			border-right: 1px solid #673A3A;
+			text-align: center;
+			height:62px;
+		}
+		#APP-TOP .menuContainer .menuColumn4 a:last-child{
+			border-right: 0 none;
+			position: relative;
+		}
+		/*#APP-TOP .menuContainer .menuColumn4 a:nth-child(2){
+			width:85px;
+		}*/
+			#APP-TOP .menuContainer .menuColumn4 a .svgContainer{
+				display: block;
+				margin: 15px auto;
+				height: 30px;
+			}
+			#APP-TOP .menuContainer .menuColumn4 a p{
+				// display: inline-block;
+				width: 100%;
+				white-space: nowrap;
+				overflow: hidden;
+				// text-overflow: ellipsis;
+				padding:0;
+				margin:0;
+				// line-height:18px;
+			}
+			#APP-TOP .menuContainer .menuColumn4 a .menuBlock{
+			    position: relative;
+			}
+			#APP-TOP .menuContainer .menuColumn4 a .menuBlock .badge-number{
+				position: absolute;
+		       top: -2px;
+		       left: 69%;
+		       font-size: 10px;
+		       background: red;
+		       color: #fff;
+		       border-radius: 50% 50%;
+		       width: 18px;
+		       height: 18px;
+		       line-height: 18px;
+		       text-align: center;
+		       display: block;
+		       font-style: normal;
+		       z-index: 20;
+			}
+			#APP-TOP .menuContainer.escape .menuColumn4 a .menuBlock .badge-number{
+				position: absolute;
+		       top: -2px;
+		       left: 29px;
+		       font-size: 10px;
+		       background: red;
+		       color: #fff;
+		       border-radius: 50% 50%;
+		       width: 18px;
+		       height: 18px;
+		       line-height: 18px;
+		       text-align: center;
+		       display: block;
+		       font-style: normal;
+		       z-index: 20;
+			}
+			
+			
+			
+			
+			
+
+	/* menuFooter */
+	#APP-TOP .menuContainer .menuFooter{
+		clear: both;
+		/*background-color: #fff;*/
+		border: 1px solid #673a3a;
+		/*border-top: 0;*/
+		position: relative;
+	}
+		#APP-TOP .menuContainer .menuFooter .menuBlock{}
+			#APP-TOP .menuContainer .menuFooter a .menuBlock{
+				text-align: center;
+			}
+				#APP-TOP .menuContainer .menuFooter a .menuBlock .svgContainer{
+					display: inline;
+					position:relative;
+				}
+					#APP-TOP .menuContainer .menuFooter a .menuBlock .svgContainer img{
+						vertical-align: middle;
+						/*display: inline-block;*/
+					}
+					#APP-TOP .menuContainer .menuFooter a .menuBlock .svgContainer svg{
+						vertical-align: middle;
+					}
+				#APP-TOP .menuContainer .menuFooter a .menuBlock p{
+				}
+
+			/* column2 */
+			#APP-TOP .menuContainer .menuFooter .menuColumn2{
+				display: block;
+				width: 253px;
+				height: 40px;
+				border-top: 0;
+
+				/*width: 288px;*/
+			}
+				#APP-TOP .menuContainer .menuFooter .menuColumn2 a{
+					display: inline-block;;
+					width: 126px;
+					text-align: center;
+					border-right: 1px solid #673a3a;
+					// margin-right: -1px;
+				}
+					#APP-TOP .menuContainer .menuFooter .menuColumn2 a .menuBlock{
+						padding: 0;
+					}
+					#APP-TOP .menuContainer .menuFooter .menuColumn2 a:last-child{
+						border-right: none;
+						width: 127px;
+					}
+					#APP-TOP .menuContainer .menuFooter .menuColumn2 a:last-child .menuBlock{
+						border-right: 0px solid;
+					}
+						#APP-TOP .menuContainer .menuFooter .menuColumn2 a .menuBlock .svgContainer{
+							display: inline;
+							position:relative;
+						}
+						#APP-TOP .menuContainer .menuFooter .menuColumn2 a .menuBlock p{
+							display: inline-block;
+							width: auto;
+							max-width:52px;
+							vertical-align: middle;
+						}
+						
+						
+			#APP-TOP .menuContainer .menuFooter .menuColumn3_footer{
+				display: block;
+				width: 253px;
+				height: 40px;
+				border-top: 0;
+
+				/*width: 288px;*/
+			}
+				#APP-TOP .menuContainer .menuFooter .menuColumn3_footer a{
+					display: inline-block;;
+					width: 84px;
+					text-align: center;
+					border-right: 1px solid #673a3a;
+					margin-right: -4px;
+				}
+					#APP-TOP .menuContainer .menuFooter .menuColumn3_footer a .menuBlock{
+						padding: 0;
+					}
+					#APP-TOP .menuContainer .menuFooter .menuColumn3_footer a:nth-child(2){
+						width: 85px;
+					}
+					#APP-TOP .menuContainer .menuFooter .menuColumn3_footer a:last-child{
+						border-right: none;
+						width: 84px;
+					}
+					#APP-TOP .menuContainer .menuFooter .menuColumn3_footer a:last-child .menuBlock{
+						border-right: 0px solid;
+					}
+						#APP-TOP .menuContainer .menuFooter .menuColumn3_footer a .menuBlock .svgContainer{
+							display: inline;
+							position:relative;
+						}
+						#APP-TOP .menuContainer .menuFooter .menuColumn3_footer a .menuBlock p{
+							/*display: inline-block;*/
+							display:none;
+							width: auto;
+							max-width:52px;
+							vertical-align: middle;
+						}
+						.android #APP-TOP .menuContainer .menuFooter .menuColumn3_footer {
+							display: block;
+							width: 253px;
+							height: 42px;
+							border-top: 0;
+						}
+						
+						
+
+#APP-TOP .menuContainer .menuFooter .menuColumn1_footer{
+				display: block;
+				width: 253px;
+				height: 40px;
+				border-top: 0;
+
+				/*width: 288px;*/
+			}
+				#APP-TOP .menuContainer .menuFooter .menuColumn1_footer a{
+					display: inline-block;;
+					width: 100%;
+					text-align: center;
+					border-right: 1px solid #673a3a;
+				}
+					#APP-TOP .menuContainer .menuFooter .menuColumn1_footer a .menuBlock{
+						padding: 0;
+					}
+						#APP-TOP .menuContainer .menuFooter .menuColumn1_footer a .menuBlock .svgContainer{
+							display: inline;
+							position:relative;
+						}
+						#APP-TOP .menuContainer .menuFooter .menuColumn1_footer a .menuBlock p{
+							display: inline-block;
+							width: auto;
+							max-width:52px;
+							vertical-align: middle;
+						}
+						.android #APP-TOP .menuContainer .menuFooter .menuColumn1_footer {
+							display: block;
+							width: 100%;
+							height: 42px;
+							border-top: 0;
+						}
+						
+						
+#appdesign-onerow-region .menuContainer .menuColumn2 a{
+			box-sizing: border-box;
+			display: block;
+			width: 126px;
+			text-align: center;
+			border-right: 1px solid #673a3a;
+			float:left;
+			padding: 0 5px;
+			height:67px;
+			&:last-child {
+				border-right: 0px solid;
+				width: 127px;
+			}
+		}
+		
+#APP-TOP .menuContainer .menuBody .menuColumn1 a{
+			box-sizing: border-box;
+			display: block;
+			width: 254px;
+			text-align: center;
+			border-right: 1px solid #673a3a;
+			float:left;
+			padding: 0 5px;
+			height:67px;
+		}

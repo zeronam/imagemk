@@ -1,0 +1,47 @@
+{
+    "errorCode":"0000",
+    "iconSvgList": {
+        "listIcon": {
+            "icon01": "icon_stamp",
+            "icon02": "icon_coupon",
+            "icon03": "icon_information",
+            "icon04": "icon_scratch",
+            "icon05": "icon_chirashi",
+            "icon06": "icon_shop",
+            "icon07": "icon_booking",
+            "icon08": "icon_program",
+            "icon09": "icon_config",
+            "icon10": "icon_history",
+            "icon11": "icon_line",
+            "icon12": "icon_twitter",
+            "icon13": "icon_home_small",
+            "icon14": "icon_home_small",
+            "icon15": "icon_shop",
+            "icon16": "icon_information",
+            "icon17": "icon_coupon",
+            "icon18": "icon_config_new"
+            },
+        "listTitle": {
+            "icon01": "来店スタンプ",
+            "icon02": "クーポン一覧",
+            "icon03": "お知らせ",
+            "icon04": "スクラッチ",
+            "icon05": "チラシ一覧",
+            "icon06": "店舗検索",
+            "icon07": "来店予約",
+            "icon08": "プログラム",
+            "icon09": "設定",
+            "icon10": "利用履歴",
+            "icon11": "Line",
+            "icon12": "Twitter",
+            "icon13": "ホーム",
+            "icon14": "ホーム",
+            "icon15": "店舗",
+            "icon16": "お知らせ",
+            "icon17": "クーポン",
+            "icon18": "設定"
+        },
+        "textColor": ""
+    	
+	}
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="author" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="format-detection" content="telephone=no" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script type="text/javascript" charset="utf-8" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/underscore-min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/applican-1.5.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery.transit.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+
+<style>
+img{
+  border:0;
+  max-width: 100%;
+  height: auto;
+}
+#content-main{margin: 20px;}
+#content-main .guide_main{
+text-align:center;
+margin:0 auto 20px auto;
+display:block;
+}
+#content-main .content{
+	width:90%;
+	margin:0 auto;}
+#content-main .content p{
+	text-align:center;}
+#content-main .content h2{
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+button.btnMain{
+	margin-bottom: 20px;
+}
+</style>
+
+</head>
+
+<body>
+<div id="content">
+	<div id="content-main">
+    <img src="images/guide_main.png" width="600" height="500" alt="" class="guide_main"/>
+    <div class="content">
+    <!-- 
+    <p>※お一人様1日1回となります。</p>
+    <h2 style="color:#ff6600;">A賞：お好きなフレーバーポテト<br>Mサイズ無料</h2>
+     -->
+   </div>
+    </div>
+</div>
+<div id="btnMainWrpper">
+<button id="btnStart" class="btnMain">スクラッチをする</button>
+<button id="btnReturn" class="btnMain">トップに戻る</button>
+</div>
+<script>
+$('#btnStart').on('click',function(){
+	location.href="index.html";
+});
+$('#btnReturn').on('click',function(){
+	location.href="../index.html";
+});
+</script>
+</body>
+</html>

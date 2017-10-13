@@ -1,0 +1,9 @@
+<div id="LOGIN">
+	<label for="user-id">携帯電話番号</label>
+	<input type="tel" name="smstel" id="user-id">
+	<button type="button" class="login-btn btbgcolor1 btftcolor1">規約に同意して番号認証</button>
+	<span class="cancel-btn">認証をスキップ</span>
+	<p class="instruction ftcolor2">※認証をスキップすると、クーポン・スタンプ・<br>
+	ポイント・スクラッチの機能が制限されます。</p>
+</div>
+<%= App.util.injectProgressScreenDom()  %>

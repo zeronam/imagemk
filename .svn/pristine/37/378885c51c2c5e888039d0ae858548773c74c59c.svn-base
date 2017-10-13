@@ -1,0 +1,45 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/tutorial.css">
+		<link rel="stylesheet" type="text/css" href="../../css/template.css">
+		<link rel="stylesheet" type="text/css" href="../../css/swiper.css">
+		<title>Sample</title>
+		<script type="text/javascript" charset="utf-8" src="../../js/applican.js"></script>
+		<script type="text/javascript" charset="utf-8" src="../../js/jquery.js"></script>
+		<!--
+		<script type="text/javascript" charset="utf-8" src="../../js/flipsnap.js"></script>
+		-->
+		<script type="text/javascript" charset="utf-8" src="../../js/swiper.jquery.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/tutorial.js"></script>
+
+	</head>
+
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="image/howto1.png">
+				</div>
+				<div class="swiper-slide">
+					<img src="image/howto2.png">
+				</div>
+				<div class="swiper-slide">
+					<img src="image/howto3.png">
+				</div>
+			</div>
+		</div>
+
+		<div class="swiper-pagination"></div>
+
+		<div class="controllers">
+			<a href="?close_webview=yes"><button class="ctl appTopButton btbgcolor1 btftcolor1">アプリトップへ</button></a>
+			<a href="?close_webview=yes"><button class="ctl closeButton btbgcolor2 btbdcolor1 btftcolor2">とじる</button></a>
+		</div>
+
+
+	</body>
+</html>

@@ -1,0 +1,539 @@
+/* reset */
+
+body{
+	background: #FFF;
+	color: #666666;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+button{
+	width: 100%;
+	height: 40px;
+}
+
+
+/* common */
+
+.disabled{
+	display: none !important;
+}
+
+header.pageHeader{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 90;
+	width: 100%;
+	height: 45px;
+	background: #ffc262;
+}
+	header.pageHeader h1.ttl{
+		position: absolute;
+		left: 50%;
+		top: 15px;
+		width: 100px;
+		height: 15px;
+		margin-left: -50px;
+		text-indent: -9999px;
+	}
+	header.pageHeader button#btnHeaderList{
+		position: absolute;
+		left: 6px;
+		top: 1px;
+		width: 44px;
+		height: 44px;
+		background: url(../images/icon_list01.png) 12px 12px no-repeat;
+		background-size: 20px 20px;
+		text-indent: -9999px;
+		border: 0px;
+	}
+	header.pageHeader button.btnReload{
+		position: absolute;
+		right: 3px;
+		top: 2px;
+		width: 44px;
+		height: 44px;
+		background: url(../images/btnReload.png) 13px 13px no-repeat;
+		background-size: 18px 18px;
+		text-indent: -9999px;
+		border: 0px;
+	}
+section .contentsWrapper{
+	position: absolute;
+	left: 0;
+	top: 45px;
+	z-index: 80;
+	width: 100%;
+	margin-top: 1px;
+}
+	section .contentsWrapper button{
+		width: 100%;
+	}
+p.readText{
+	margin: 20px auto 10px;
+}
+
+
+/* common font */
+
+p.fontL{
+	font-size: 110%;
+}
+p.fontS{
+	font-size: 80%;
+}
+.webfont{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/* debug window */
+#debugW{
+	position: fixed;
+	left: 0;
+	top: 50px;
+	z-index: 10000;
+	width: 60%;
+	height: 300px;
+	background-color: rgba( 200, 200, 200, 0.8);
+	overflow-y: scroll;
+	padding: 20px;
+}
+	#debugW p{
+		font-weight: normal;
+		text-indent: 1em;
+		font-size: 60%;
+	}
+	#debugW p.ttl{
+		font-weight: bold;
+		text-indent: 0;
+	}
+
+
+
+/* app wrapper */
+#appWrapper{
+	overflow: hidden;
+}
+
+
+/* splash */
+#sectionSplash{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+	background-color: #ffc262;
+	opacity: 0;
+}
+	#sectionSplash h1{
+		position: absolute;
+		top: 50%;
+		height: 104px;
+		width: 100%;
+		margin: -52px 0 0 0;
+		background: url(../images/img_scissors01.png) right bottom no-repeat;
+		background-size: 596px 18px;
+	}
+		#sectionSplash h1 img{
+			margin-left: 20px;
+		}
+
+/* loader */
+#loader{
+	display: none;
+	position: relative;
+	width: 100%;
+	height: auto;
+	z-index: 8;
+}
+	#loader img{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin: -16px 0 0 -16px;
+	}
+
+/* sectionContents */
+#sectionContents{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	width: 100%;
+}
+
+/* storeList */
+#contentsStoreList{}
+	#contentsStoreList header h1.ttl{
+		background: url(../images/ttl_storelist01.png);
+		background-size: 100px 15px;
+	}
+	#contentsStoreList #storeList{
+		width: 100%;
+		margin: 0;
+	}
+		#contentsStoreList #storeList li{
+			height: 80px;
+			margin-top: 1px;
+			background: #ececec;
+			padding: 10px 20px;
+			list-style: none;
+		}
+		#contentsStoreList #storeList li:first-child{
+			margin-top: 0px;
+		}
+			#contentsStoreList #storeList li .storeInformation{
+				position: relative;
+				width: 100%;
+				height: 60px;
+				background: url(../images/img_arrow01.png) right 21px no-repeat;
+				background-size: 12px 18px;
+			}
+				#contentsStoreList #storeList li .storeInformation img{
+					position: absolute;
+					left: 0;
+					top: 0;
+				}
+				#contentsStoreList #storeList li .storeInformation p{
+					position: absolute;
+					left: 70px;
+					top: 20px;
+				}
+		/* coupon稼働中 */
+		#contentsStoreList #storeList li.storeOngoing{
+			background: #ff8b19;
+		}
+			#contentsStoreList #storeList li.storeOngoing .storeInformation{
+				background: url(../images/img_arrow02.png) right 21px no-repeat;
+				background-size: 12px 18px;
+			}
+				#contentsStoreList #storeList li.storeOngoing .storeInformation p.storeName{
+					position: absolute;
+					left: 70px;
+					top: 5px;
+					color: #FFF;
+				}
+				#contentsStoreList #storeList li.storeOngoing .storeInformation p.storeTimelimit{
+					position: absolute;
+					left: 70px;
+					top: 28px;
+					color: #FFF;
+					background: url(../images/img_ongoing01.png) left top no-repeat;
+					background-size: 116px 20px;
+					font-size: 110%;
+					line-height: 120%;
+					padding: 0 0 5px 120px;
+				}
+
+/* storeDetail */
+#contentsStoreDetail{}
+	#contentsStoreDetail header h1.ttl{
+		background: url(../images/ttl_storedetail01.png);
+		background-size: 100px 15px;
+	}
+	#contentsStoreDetail .contentsWrapper{
+		padding: 20px;
+		text-align: center;
+	}
+
+		/* coupon open */
+		.couponOpen{}
+			.couponOpen .contentsWrapper{
+				background: #ff8b19;
+				color: #FFF;
+			}
+				.couponOpen .contentsWrapper .storeName{
+					width: 100%;
+					height: 53px;
+					text-align: center;
+					padding-top: 29px;
+					background: url(../images/img_countdown01.png) center top no-repeat;
+					background-size: 122px 24px;
+				}
+				.couponOpen .contentsWrapper .countdownWrapper{
+					background: #FFF;
+					color: #f17700;
+				}
+					/* countdown time */
+					.couponOpen .contentsWrapper .countdownWrapper .countdownTime{
+						height: 120px;
+						padding: 25px 0 0;
+						text-align: center;
+					}
+						.couponOpen .contentsWrapper .countdownWrapper .countdownTime #countdownTimer{
+							margin-bottom: 10px;
+						}
+						.couponOpen .contentsWrapper .countdownWrapper .countdownTime #countdownTimer span:first-child{
+							font-size: 400%;
+							line-height: 100%;
+							padding-right: 3px;
+						}
+						.couponOpen .contentsWrapper .countdownWrapper .countdownTime #countdownTimer span{
+							font-size: 120%;
+						}
+						.couponOpen .contentsWrapper .countdownWrapper .countdownTime .countdownLimit{
+							margin: 0 auto;
+							background: url(../images/img_timelimit01.png) left top no-repeat;
+							background-size: 56px 12px;
+							padding-left: 42px;
+							width: 200px;
+							text-align: right;
+							line-height: 63%;
+							padding-bottom: 5px;
+							font-size: 118%;
+						}
+					/* discount coupon */
+					.couponOpen .contentsWrapper .countdownWrapper .countdownCoupon{
+						min-height: 106px;
+						padding: 45px 0 10px;
+						text-align: center;
+						background: #ffe5bf url(../images/img_coupon01.png) center 15px no-repeat;
+						background-size: 60px 20px;
+					}
+						.couponOpen .contentsWrapper .countdownWrapper .countdownCoupon p{
+							font-size: 300%;
+							line-height: 100%;
+						}
+							.couponOpen .contentsWrapper .countdownWrapper .countdownCoupon p span{
+								font-size: 50%;
+							}
+				/* bottom */
+				.couponOpen .contentsWrapper  button#btnQR{
+					background: #FFF;
+					color: #f17700;
+				}
+				.couponOpen .contentsWrapper  button#btnStaffOnly,
+				.couponOpen .contentsWrapper  button#btnStaffOnly:visited{
+					border: 1px solid #FFF;
+					width: auto;
+					color: #FFF;
+					background: #ff8b19;
+				}
+
+		/* coupon done & coupon use view */
+		.couponDone{
+			background: #FFF;
+			color: #ff8b19;
+		}
+		.couponDone header h1.couponDone{
+			background: url(../images/ttl_coupon01.png);
+			background-size: 100px 15px;
+		}
+			.couponDone .contentsWrapper div.getCouponAnime{
+				margin: 0px auto 10px;
+				animation-name: blinkAnime;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				-webkit-animation-name: blinkAnime;
+				-webkit-animation-duration: 2s;
+				-webkit-animation-iteration-count: infinite;
+			}
+			@keyframes blinkAnime {
+				0% { opacity: 1 }
+				50% { opacity: 0 }
+				100% { opacity: 1 }
+			}
+			@-webkit-keyframes blinkAnime {
+				0% { opacity: 1 }
+				50% { opacity: 0 }
+				100% { opacity: 1 }
+			}
+
+			.couponDone .contentsWrapper{}
+				.couponDone .contentsWrapper p.storeName{
+					font-size: 120%;
+					margin-bottom: 25px;
+				}
+				.couponDone .contentsWrapper p.couponDiscount{
+					font-size: 700%;
+					line-height: 70%;
+				}
+					.couponDone .contentsWrapper p.couponDiscount span{
+						font-size: 50%;
+					}
+				.couponDone .contentsWrapper p.couponLimit{
+					margin-bottom: 35px;
+				}
+				.couponDone .contentsWrapper button#btnFacebook,
+				.couponDone .contentsWrapper button#btnFacebook:visited,
+				.couponDone .contentsWrapper button#btnTwitter,
+				.couponDone .contentsWrapper button#btnTwitter:visited{
+					background: #ff8b19;
+					color: #FFF;
+				}
+				.couponDone .contentsWrapper button#btnFacebook{
+					margin-bottom: 25px;
+				}
+				.couponDone .contentsWrapper button#btnTwitter{
+					margin-bottom: 35px;
+				}
+				.couponDone .contentsWrapper p.readText{
+					color: #666;
+				}
+				.couponDone .contentsWrapper #couponUseYet{
+					display: none;
+				}
+					.couponDone .contentsWrapper button#btnCouponUseConfirm,
+					.couponDone .contentsWrapper button#btnCouponUseConfirm:visited{
+						color: #666;
+						border: 1px solid #666;
+						width: auto;
+						background: #FFF;
+					}
+				.couponDone .contentsWrapper #couponUseAlready{
+					display: none;
+				}
+
+		/* coupon close */
+		.couponClose{
+			background: #ececec;
+			color: #666;
+		}
+			.couponClose .contentsWrapper{
+				text-align: center;
+			}
+				.couponClose .contentsWrapper p.storeName{
+					width: 100%;
+					padding: 30px 20px;
+				}
+				.couponClose .contentsWrapper img{
+					display: block;
+					margin: 0 auto;
+				}
+				.couponClose .contentsWrapper form{
+					width: 100%;
+					text-align: center;
+				}
+					.couponClose .contentsWrapper form button,
+					.couponClose .contentsWrapper form button:visited{
+						margin: 40px auto 0;
+						border: 1px solid #666;
+						background: #FFF;
+						color: #666;
+						width: auto;
+					}
+
+
+/* modal */
+.modalWrapper{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 750;
+	padding: 60px 20px;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+}
+	.modalWrapper .modalContainer{
+		background: #FFF;
+		border-radius: 4px;
+		padding: 20px 20px 30px;
+		text-align: left;
+	}
+		.modalWrapper .modalContainer header{
+			height: 40px;
+		}
+			.modalWrapper .modalContainer header button{
+				float: right;
+				background: #FFF;
+				height: 30px;
+				width: 30px;
+			}
+			.modalWrapper .modalContainer header p{
+				font-weight: bold;
+				padding-top: 7px;
+			}
+		.modalWrapper .modalContainer .modalBody{}
+			.modalWrapper .modalContainer .modalBody p{
+				margin-bottom: 15px;
+			}
+			.modalWrapper .modalContainer .modalBody p#passwordError{
+				color: #F00;
+			}
+			.modalWrapper .modalContainer .modalBody form{
+				text-align: center;
+			}
+				.modalWrapper .modalContainer .modalBody form input{
+					margin-bottom: 25px;
+				}
+				.modalWrapper .modalContainer .modalBody form button,
+				.modalWrapper .modalContainer .modalBody form button:visited{
+					border: 1px solid #666;
+					background: #FFF;
+					color: #666;
+					width: 140px;
+				}
+
+/* error */
+
+#networkError{
+	text-align: center;
+	padding: 160px 30px 0;
+}
+	#networkError button{
+		width: 100px;
+		margin-top: 50px;
+		border-radius: 4px;
+		border: none;
+	}
+	
+button.btnMain{
+	width: 200px;
+	z-index: 11;
+	border-radius: 8px;
+	border: 2px solid #000;
+	font-weight: bold;
+	background-color: #FFF;
+	margin-bottom: 10px;
+}
+#btnMainWrpper{
+	display: none;
+	position: absolute;
+	text-align: center;
+	width: 250px;
+}
+#btnMainWrpper #win-msg {
+	color:black; font-weight: bold; font-size: 12px;display: block;margin-bottom: 20px;
+}
+
+#alt-link {
+	color:black; font-weight: bold; font-size: 12px;display: block;
+}
+
+.with-fadein {
+	animation-name: fadein;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+}
+@keyframes fadein {
+0% {opacity:0}
+20% {opacity:0}
+100% {opacity:1}
+}
+.with-popup {
+	animation-name: popup;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+}
+@keyframes popup {
+0% {opacity:0}
+70% {opacity:0}
+100% {opacity:1}
+}
+

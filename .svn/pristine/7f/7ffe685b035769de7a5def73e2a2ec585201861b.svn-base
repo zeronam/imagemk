@@ -1,0 +1,13 @@
+<div id="LOGIN">
+	<label for="user-id">メールアドレス</label>
+		<input type="text" name="user-id" id="user-id">
+		<label for="password">パスワード</label>
+		<input type="password" name="password" id="password">
+		<button type="button" class="login-btn btbgcolor1 btftcolor1">ログイン</button>
+		<a href="<%= AppConf.url.forgetPassword %>?launch_webview=yes" class="forget ftcolor2">パスワードを忘れた方はコチラ</a>
+		<a href="<%= AppConf.url.registerUser %>?launch_webview=yes" class="singup btbdcolor1 btftcolor2">新規会員登録へ</a>
+	<span class="cancel-btn">会員登録をスキップ</span>
+	<p class="instruction ftcolor2">※会員登録をスキップすると、クーポン・スタンプ・<br>
+	ポイント・スクラッチの機能が制限されます。</p>
+</div>
+<%= App.util.injectProgressScreenDom()  %>
